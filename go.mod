@@ -39,3 +39,5 @@ require (
 replace sigs.k8s.io/cluster-api-provider-aws => github.com/openshift/cluster-api-provider-aws v0.2.1-0.20200929152424-eab2e087f366
 
 replace sigs.k8s.io/cluster-api-provider-azure => github.com/openshift/cluster-api-provider-azure v0.1.0-alpha.3.0.20200929220456-04e680e51d03
+
+replace github.com/openshift/api => github.com/nirarg/api v0.0.0-20200902122453-a4d285f1ff55
