@@ -24,7 +24,7 @@ var (
 	expectedIronicStaticIpManager     = "quay.io/openshift/origin-ironic-static-ip-manager:v4.2.0"
 	expectedOvirtImage                = "quay.io/openshift/origin-ovirt-machine-controllers"
 	expectedVSphereImage              = "docker.io/openshift/origin-machine-api-operator:v4.0.0"
-	expectedKubevirtImage             = "docker.io/kubevirtplatformipi/cluster-api-provider-kubevirt:nargaman"
+	expectedKubevirtImage             = "docker.io/kubevirtplatformipi/cluster-api-provider-kubevirt:4.6"
 )
 
 func TestGetProviderFromInfrastructure(t *testing.T) {
